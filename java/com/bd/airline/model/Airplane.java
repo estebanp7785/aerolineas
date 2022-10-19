@@ -9,6 +9,8 @@ import java.util.List;
 @Table(name = "airplane") //Puedo especificar esquema, constraints, si utilizo indices
 public class Airplane {
 
+
+    //pc hola!!!!!!!
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name="id_airplane")
