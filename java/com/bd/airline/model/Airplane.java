@@ -8,7 +8,7 @@ import java.util.List;
 @Entity
 @Table(name = "airplane") //Puedo especificar esquema, constraints, si utilizo indices
 public class Airplane {
-
+//HOLA!!!!!!!!!!!!!!!
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name="id_airplane")
